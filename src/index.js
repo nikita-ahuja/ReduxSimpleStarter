@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+//Some keys (like this one) are totally okay to reveal on the front end.
+const API_KEY = 'AIzaSyB-TqzcV58QS13wLzbAr1-S64S2kKVnPJ0'
+
 // Create a new component. This component should produce some HTML.
 
-const App = =>() {
+const App = () => {
   return <div>Hi!</div>;
 }
 
